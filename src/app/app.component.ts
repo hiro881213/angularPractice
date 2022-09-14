@@ -13,14 +13,13 @@ export class AppComponent {
   addPrice = () => {
 
     const number = 100;
-    return number + 500
+    // return number + 50
+    this.price += number;
 
   };
 
-  constructor() {
-    this.price = this.addPrice()
-  }
-
-
+  // constructor() {
+  //   this.price = this.addPrice()
+  // }
 
 }
