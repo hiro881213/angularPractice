@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularPractice000';
+
+  price = 100;
+
+  addPrice = (price:number, num: number) => {
+
+    const result = price + num
+    return result
+
+  };
+
+  result = this.addPrice(this.price, 50);
+
 }
