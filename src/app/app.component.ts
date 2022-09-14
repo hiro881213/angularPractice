@@ -10,13 +10,17 @@ export class AppComponent {
 
   price = 100;
 
-  addPrice = (price:number, num: number) => {
+  addPrice = () => {
 
-    const result = price + num
-    return result
+    const number = 100;
+    return number + 500
 
   };
 
-  result = this.addPrice(this.price, 50);
+  constructor() {
+    this.price = this.addPrice()
+  }
+
+
 
 }
