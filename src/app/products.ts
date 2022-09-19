@@ -12,7 +12,7 @@ export const products = [
   {
     name: "productC",
     price: 900,
-    description:"TEST3",
+    description:"",
   }
 
 ]
