@@ -7,4 +7,9 @@ import { products } from '../products';
 
 export class ProductListComponent {
   products = products;
+
+  share() {
+    window.alert("AAAAA");
+  }
+
 }
