@@ -2,7 +2,15 @@
 <h2>{{price}}</h2>
 <router-outlet></router-outlet>
 
-<button (click)="addPrice()">ボタン</button>
+<div *ngFor="let student of students">
+    <h3>{{ student }}</h3>
+</div>
 
-<a routerLink="/">TEST1</a>
-<a routerLink="/topbar">TEST2</a>
+<button (click)="addPrice()">ボタン</button>
+<div>
+    <a routerLink="/">TEST1</a>
+</div>
+
+<div>
+    <a routerLink="/topbar">TEST2</a>
+</div>

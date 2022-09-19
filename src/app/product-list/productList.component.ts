@@ -4,5 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-product-list',
   templateUrl: './productList.component.html',
 })
+
 export class ProductListComponent {
+
 }
