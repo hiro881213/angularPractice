@@ -8,23 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angularPractice';
 
-  students = [
-    {
-      name: "太郎",
-      age: 70,
-      gender: "男"
-    },
-    {
-      name: "二郎",
-      age: 60,
-      gender: "男"
-    },
-    {
-      name: "三郎",
-      age: 50,
-      gender: "男"
-    }];
-
   price = 100;
 
   addPrice = () => {
