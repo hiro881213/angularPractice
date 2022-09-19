@@ -13,4 +13,7 @@ export class ProductListComponent {
     window.alert("AAAAA");
   }
 
+  notify() {
+    window.alert("お知らせを受け取ります");
+  }
 }

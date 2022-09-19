@@ -1,4 +1,4 @@
-import { Component,Input } from '@angular/core';
+import { Component,EventEmitter,Input,Output} from '@angular/core';
 import { products } from '../products';
 import { Product} from '../shared/product.model'
 @Component({
@@ -8,4 +8,5 @@ import { Product} from '../shared/product.model'
 
 export class ProductDetailComponent {
   @Input() name: any;
+  @Output() onNotify = new EventEmitter();
 }
